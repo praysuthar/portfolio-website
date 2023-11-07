@@ -24,7 +24,7 @@ function Navbar() {
 					to="about"
 					spy={true}
 					smooth={true}
-					offset={-50}
+					offset={-120}
 					duration={500}
 					className="menu-bar-list-item"
 				>
@@ -35,15 +35,35 @@ function Navbar() {
 					to="project"
 					spy={true}
 					smooth={true}
-					offset={-50}
+					offset={-160}
 					duration={500}
 					className="menu-bar-list-item"
 				>
 					Projects
 				</Link>
-				<Link className="menu-bar-list-item">Skills</Link>
+				<Link
+					activeClass="active"
+					to="skills"
+					spy={true}
+					smooth={true}
+					offset={-100}
+					duration={500}
+					className="menu-bar-list-item"
+				>
+					Skills
+				</Link>
 				<Link className="menu-bar-list-item">Resume</Link>
-				<Link className="menu-bar-list-item">Contact</Link>
+				<Link
+					activeClass="active"
+					to="contact"
+					spy={true}
+					smooth={true}
+					offset={-110}
+					duration={500}
+					className="menu-bar-list-item"
+				>
+					Contact
+				</Link>
 			</div>
 		</nav>
 	);

@@ -1,0 +1,53 @@
+#contact {
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.contact-title {
+	font-size: 2.1rem;
+	font-weight: 120;
+	text-align: center;
+	margin-top: 50px;
+}
+.contact-left {
+	text-align: center;
+	align-items: center;
+}
+.contact-left p {
+	margin-top: 30px;
+	margin-left: 20px;
+	color: #ff004f;
+	font-size: 25px;
+}
+.contact-right form {
+	width: 100%;
+}
+.contact-right {
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+form input,
+form textarea {
+	width: 70%;
+	border: 0;
+	outline: none;
+	background: #262626;
+	padding: 15px;
+	margin: 15px 15px;
+	font-size: 18px;
+	border-radius: 6px;
+	color: white;
+}
+button {
+	background: skyblue;
+	cursor: pointer;
+	border: 0;
+	font-weight: bold;
+	color: black;
+	margin: 15px auto;
+	display: block;
+	width: 70%;
+	height: 40px;
+	border-radius: 5px;
+}

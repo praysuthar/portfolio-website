@@ -1,3 +1,38 @@
-button {
-	color: white;
+#project {
+	justify-content: center;
+	text-align: center;
+}
+
+.t {
+	margin: 5rem auto;
+}
+.project_card_container {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.project_card {
+	width: 100vh;
+	max-width: 20rem;
+	height: 32vh;
+	margin-bottom: 4rem;
+	display: grid;
+	padding: 5px;
+	padding-bottom: 30px;
+}
+.project_card_img {
+	object-fit: cover;
+	height: 12rem;
+	max-width: 20rem;
+	border-radius: 65px;
+}
+.project_title {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: red;
+	font-size: 1.75rem;
+}
+.project_card_button {
+	color: red;
 }

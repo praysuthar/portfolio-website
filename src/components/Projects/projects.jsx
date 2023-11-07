@@ -1,24 +1,26 @@
 import React from "react";
 import "./projects.css";
+import projectsList from "../../assets/projectdata";
 
 const Projects = () => {
 	return (
 		<section id="project">
-			<div className="title">My Projects</div>
-			<div className="project_card">
-				<div className="project_img"></div>
-				<div className="project_info">
-					<div className="project_name">Quote Generator</div>
-					<div className="project_desc">
-						A simple quote generator built with HTML, CSS and JavaScript where a
-						user can get a quote of the day either famous or inspiration.
+			<div className="t">
+				<h2>My Projects</h2>
+			</div>
+			<div className="project_card_container">
+				{projectsList.map((item) => (
+					<div className="project_card">
+						<img className="project_card_img" src={item.image}></img>
+						<span className="project_title">{item.title}</span>
+						<div className="project_card_button">
+							<a href={item.github_link}>Github Repo</a>
+							<br />
+							<a href={item.live_link}>Live Site</a>
+						</div>
+						{/* </div> */}
 					</div>
-					<div className="project_tech_stack">HTML CSS React</div>
-				</div>
-				<div className="project_link">
-					<button className="project_src_btn">SOURCE CODE</button>
-					<button className="project_live_demo_btn">LIVE DEMO</button>
-				</div>
+				))}
 			</div>
 		</section>
 	);
