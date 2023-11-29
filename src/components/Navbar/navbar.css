@@ -6,18 +6,19 @@
 	padding: 1rem 2rem;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: right;
+	/* justify-content: space-between; */
 	position: sticky;
 	top: 0;
 	background: rgb(40, 40, 40);
 	z-index: 3;
 }
 
-.logo {
+/* .logo {
 	object-fit: cover;
 	height: 3rem;
 	width: 4rem;
-}
+} */
 
 .menu-bar-list-item {
 	margin: 1rem;
@@ -25,13 +26,13 @@
 }
 
 .menu-bar-list-item:hover {
-	color: yellow;
+	color: #cb7ef1;
 	padding-bottom: 0.5rem;
-	border-bottom: 1px solid yellow;
+	border-bottom: 1px solid #cb7ef1;
 }
 
 .active {
-	color: yellow;
+	color: #cb7ef1;
 	padding-bottom: 0.5rem;
-	border-bottom: 3px solid yellow;
+	border-bottom: 3px solid #cb7ef1;
 }

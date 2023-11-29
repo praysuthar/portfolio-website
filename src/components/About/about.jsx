@@ -4,28 +4,20 @@ import "./about.css";
 const About = () => {
 	return (
 		<section id="about">
-			{/* <p>
-				I am recent Computer Science graduate from University of Winniepg and
-				looking for Frontend Developer or Full Stack Developer roles.
-			</p>
-			<p>Please feel free to further reach out to me.</p>
-			<p>
-				You will find my contact details in the contacts detail and can use any
-				of the provided details suitable to you.
-			</p> */}
 			<div className="about_title">About Me</div>
-			<div className="about_info">
-				After graduating with a degree in Computer Science, I decided to pursue
-				my career in Frontend Development. My core stack is React, Node.js,
-				Express.js, MongoDB. I am also familiar with TypeScript, Chakra Ui, Java
-				and Python. I have a durable foundation in computer science
-				fundamentals, including programming, data structures and algorithms. I
-				am always looking to enhance my skills and learn new technologies. I am
-				currently looking for a full-time position as a software developer. I am
-				eager to apply skills and knowledge to a role in the tech industry. When
-				I am not coding I enjoy playing video games,card games, watching movies
-				and documentries.
-			</div>
+			<p className="about_info">
+				Hi, I’m a recent graduate with a passion for web development. I have
+				experience in building full-stack web applications using the MERN stack
+				(MongoDB, Express, React, and Node.js). I enjoy creating responsive and
+				user-friendly front-end interfaces with HTML, CSS, and JavaScript. I
+				also have skills in back-end development, RESTful APIs, and database
+				management. I’m a team player who values collaboration, communication,
+				and feedback. I’m always eager to learn new technologies and improve my
+				coding skills. I’m looking for opportunities to work on exciting and
+				challenging projects that can make a positive impact. You can check out
+				some of my work on my GitHub profile or contact me via email. Thank you
+				for visiting my website! 😊
+			</p>
 		</section>
 	);
 };

@@ -3,6 +3,14 @@ import img2 from "./age-calc.png";
 import img3 from "./weather-app.png";
 const projectsList = [
 	{
+		image: img3,
+		title: "Netflix Clone",
+		description: "App gives your city weather information",
+		github_link: "https://github.com/praysuthar/weather-app-react",
+		// live_link: "https://weather-app-react-hazel-five.vercel.app/",
+		technologies: ["ReactJS, ChakraUI"],
+	},
+	{
 		image: img1,
 		title: "Quote Generator",
 		description: `A  where a user can get a quote of the day (either famous or inspirational)`,
@@ -15,16 +23,16 @@ const projectsList = [
 		title: "Age Calculator",
 		description: "App tells you your age from user query",
 		github_link: "https://github.com/praysuthar/JS_Age_Calculator",
-		live_link: "https://github.com/praysuthar/JS_Age_Calculator",
+		live_link: "https://age-calculator-wheat-two.vercel.app/",
 		technologies: ["HTML5", "CSS3", "JavaScript"],
 	},
 	{
 		image: img3,
 		title: "Weather App",
 		description: "App gives your city weather information",
-		github_link: "https://github.com/praysuthar/Weather-App-JS",
-		live_link: "https://github.com/praysuthar/Weather-App-JS",
-		technologies: ["HTML5", "CSS3", "JavaScript"],
+		github_link: "https://github.com/praysuthar/weather-app-react",
+		live_link: "https://weather-app-react-hazel-five.vercel.app/",
+		technologies: ["ReactJS, ChakraUI"],
 	},
 ];
 

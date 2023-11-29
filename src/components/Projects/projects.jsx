@@ -5,9 +5,7 @@ import projectsList from "../../assets/projectdata";
 const Projects = () => {
 	return (
 		<section id="project">
-			<div className="t">
-				<h2>My Projects</h2>
-			</div>
+			<div className="project_title">My Projects</div>
 			<div className="project_card_container">
 				{projectsList.map((item) => (
 					<div className="project_card">

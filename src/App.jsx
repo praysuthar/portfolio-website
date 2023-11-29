@@ -7,6 +7,7 @@ import Footer from "./components/Footer/footer.jsx";
 import About from "./components/About/about.jsx";
 import Skills from "./components/Skills/skills.jsx";
 import Contact from "./components/Contact/contact.jsx";
+import Resume from "./components/Resume/Resume.jsx";
 function App() {
 	return (
 		<div className="App">
@@ -15,6 +16,7 @@ function App() {
 			<About />
 			<Projects />
 			<Skills />
+			<Resume />
 			<Contact />
 			<Footer />
 		</div>

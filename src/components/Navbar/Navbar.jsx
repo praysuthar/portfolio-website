@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 function Navbar() {
 	return (
 		<nav className="navbar">
-			<img src={profile_logo} alt="Profile Picture" className="logo" />
+			{/* <img src={profile_logo} alt="Profile Picture" className="logo" /> */}
 			<div className="menu-bar">
 				<Link
 					activeClass="active"
@@ -52,7 +52,17 @@ function Navbar() {
 				>
 					Skills
 				</Link>
-				<Link className="menu-bar-list-item">Resume</Link>
+				<Link
+					activeClass="active"
+					to="resume"
+					spy={true}
+					smooth={true}
+					offset={-50}
+					duration={500}
+					className="menu-bar-list-item"
+				>
+					Resume
+				</Link>
 				<Link
 					activeClass="active"
 					to="contact"
