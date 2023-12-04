@@ -57,7 +57,7 @@ function Navbar() {
 					to="resume"
 					spy={true}
 					smooth={true}
-					offset={-50}
+					offset={-100}
 					duration={500}
 					className="menu-bar-list-item"
 				>
@@ -79,5 +79,3 @@ function Navbar() {
 	);
 }
 export default Navbar;
-
-//activeClass="active" to="home-page" spy={true} smooth={true} offset={-50} duration={500}

@@ -16,7 +16,6 @@ const Projects = () => {
 							<br />
 							<a href={item.live_link}>Live Site</a>
 						</div>
-						{/* </div> */}
 					</div>
 				))}
 			</div>

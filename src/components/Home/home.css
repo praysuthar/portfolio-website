@@ -3,13 +3,11 @@
 	width: 100vw;
 	max-width: 75rem;
 	overflow: hidden;
-	/* position: relative; */
 	margin: 0 auto;
 }
 
 .home-page-content {
 	height: 95vh;
-	/* width: 70vw; */
 	padding: 2rem;
 	font-size: 5rem;
 	font-weight: 700;
@@ -29,11 +27,3 @@
 	font-weight: 200;
 	font-size: large;
 }
-/* .bg-cover {
-	position: absolute;
-	top: 8rem;
-	z-index: -1;
-	object-fit: cover;
-	height: 85vh;
-	width: 100vw;
-} */

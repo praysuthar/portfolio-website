@@ -1,28 +1,23 @@
 #project {
 	justify-content: center;
 	text-align: center;
-	height: calc(100vh- 4rem);
 	width: 100vw;
 	max-width: 75rem;
 	margin: 0 auto;
-	height: 95vh;
 }
 
 .t {
 	margin: 5rem auto;
 }
 .project_card_container {
-	flex-wrap: wrap;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
 .project_card {
 	width: 100vh;
 	max-width: 20rem;
 	height: 32vh;
 	margin-bottom: 4rem;
-	display: grid;
 	padding: 5px;
 	padding-bottom: 30px;
 }
