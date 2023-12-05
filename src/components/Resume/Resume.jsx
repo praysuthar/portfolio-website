@@ -17,7 +17,7 @@ const Resume = () => {
 				<div className="header">
 					<div className="header-left">
 						<div className="name">Pray Suthar</div>
-						<p>Full Stack Web Developer</p>
+						<p>Frontend Developer</p>
 					</div>
 					<div className="header-right">
 						<span>+1 (121)121-1212</span>
