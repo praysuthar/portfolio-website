@@ -24,7 +24,9 @@ const Resume = () => {
 						<span>praysuthar1212@gmail.com</span>
 						<span>Winnipeg,Canada</span>
 						<span>(Willing to Relocate)</span>
-						<a href="http://linkedin.com/praysuthar">linkedin.com/praysuthar</a>
+						<a href="https://www.linkedin.com/in/praysuthar/">
+							linkedin.com/praysuthar
+						</a>
 						<a href="http://github.com/praysuthar">github.com/praysuthar</a>
 					</div>
 				</div>
@@ -55,8 +57,8 @@ const Resume = () => {
 								</h4>
 							</li>
 							<li>
-								Relevant Coursework: Database Systems, DSA, Project Management,
-								System Analysis and Design
+								<div className="head">Relevant Coursework: </div> Database
+								Systems, DSA, Project Management, System Analysis and Design
 							</li>
 						</ul>
 					</div>
@@ -67,18 +69,20 @@ const Resume = () => {
 						<div className="skills-section">
 							<ul>
 								<li>
-									<b>Languages:</b> JavaScript, HTML, CSS, Node.JS, Python,
-									Java, SQL
+									<div className="head">Languages:</div> JavaScript, HTML, CSS,
+									Node.JS, Python, Java, SQL
 								</li>
 								<li>
-									<b>Libraries:</b> React, Express.js, NumPy, Pandas
+									<div className="head">Libraries:</div> React, Express.js,
+									NumPy, Pandas
 								</li>
 								<li>
-									<b>Databases:</b>PostgreSQL, MySQL, MongoDB
+									<div className="head">Databases:</div>PostgreSQL, MySQL,
+									MongoDB
 								</li>
 								<li>
-									<b>Tools:</b>Visual Studio, Git, GitHub, JIRA, Gradle,
-									PyCharm, Anaconda
+									<div className="head">Tools:</div>Visual Studio, Git, GitHub,
+									JIRA, Gradle, PyCharm, Anaconda
 								</li>
 							</ul>
 						</div>
@@ -98,7 +102,7 @@ const Resume = () => {
 								</li>
 
 								<li>
-									<em>Tech Stack:</em>React, Tailwind CSS
+									<div className="head">Tech Stack:</div>React, Tailwind CSS
 								</li>
 							</ul>
 						</div>
@@ -112,7 +116,7 @@ const Resume = () => {
 								</li>
 
 								<li>
-									<em>Tech Stack:</em>React, Chakra UI
+									<div className="head">Tech Stack:</div>React, Chakra UI
 								</li>
 							</ul>
 						</div>
@@ -126,10 +130,7 @@ const Resume = () => {
 								</li>
 
 								<li>
-									<em>Tech Stack:</em>Vite, CSS
-								</li>
-								<li>
-									<i>Consuming a RESTful API</i>
+									<div className="head">Tech Stack:</div>Vite, CSS
 								</li>
 							</ul>
 						</div>

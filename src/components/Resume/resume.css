@@ -59,7 +59,7 @@
 }
 .body {
 	padding: 10px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: 1px;
 	font-weight: bold;
 }
@@ -79,4 +79,8 @@ h3,
 h4 {
 	color: inherit;
 	margin-bottom: 0.8rem;
+}
+
+.head {
+	color: blue;
 }

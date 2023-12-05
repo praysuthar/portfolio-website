@@ -22,6 +22,7 @@ const Skills = () => {
 		{ name: "Git / GitHub" },
 		{ name: "Command Line" },
 		{ name: "NPM / Yarn" },
+		{ name: "Jira" },
 		{ name: "Responsive Design" },
 		{ name: "Cross-Browser Compatibility" },
 		{ name: "Debugging / DevTools" },
