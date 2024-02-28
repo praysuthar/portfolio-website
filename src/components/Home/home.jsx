@@ -1,18 +1,30 @@
 import React from "react";
-import "./home.css";
 const Home = () => {
 	return (
-		<section id="home-page">
-			<div className="home-page-content">
-				<span className="hello">Hello World,</span>
-				<span className="l2">
-					I'm <span className="home-page-name">Pray Suthar</span> <br />
+		<section id="home-page" style={{ width: "100vw" }}>
+			<div
+				className="
+						d-flex
+						flex-column
+						justify-content-center
+						text-center
+						p-2
+						mx-auto
+						bg-dark
+						text-white
+						"
+				style={{ fontWeight: 700, height: "95vh" }}
+			>
+				<h3>Hello World,</h3>
+				<h1 className="display-2">
+					I'm <span style={{ color: "#c57eec" }}>Pray Suthar</span>
+					<br />
 					Frontend Developer
-				</span>
-				<p className="home-page-intro">
-					I am a skilled web designer with experience in creating <br />
-					visually pleasing websites
-				</p>
+				</h1>
+				<div className="fs-l" style={{ fontWeight: 200 }}>
+					I am a skilled web designer with experience in creating visually
+					pleasing websites
+				</div>
 			</div>
 		</section>
 	);

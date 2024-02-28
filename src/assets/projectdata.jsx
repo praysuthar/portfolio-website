@@ -32,7 +32,8 @@ const projectsList = [
 	{
 		image: img2,
 		title: "Age Calculator",
-		description: "App tells you your age from user query",
+		description:
+			"A user-friendly tool that allows user to quickly calculate their age. The website is designed using HTML5, CSS3 and Javascript to provide clean and visually appealing interface.",
 		github_link: "https://github.com/praysuthar/JS_Age_Calculator",
 		live_link: "https://age-calculator-wheat-two.vercel.app/",
 		technologies: ["HTML5", "CSS3", "JavaScript"],
