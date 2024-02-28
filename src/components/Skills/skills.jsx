@@ -1,5 +1,4 @@
 import React from "react";
-import "./skills.css";
 
 const Skills = () => {
 	const frontendSkills = [
@@ -31,33 +30,54 @@ const Skills = () => {
 
 	return (
 		<section id="skills">
-			<div className="skills-title">Skills</div>
-			<div className="skills-container">
-				<div className="skills-category">
-					<h2>Frontend</h2>
-					<ul>
-						{frontendSkills.map((skill, index) => (
-							<li key={index}>{skill.name}</li>
-						))}
-					</ul>
+			<div
+				className="skills-title text-center mt-2 mb-3"
+				style={{ fontSize: "2.1rem", fontWeight: "120", color: "whitesmoke" }}
+			>
+				Skills
+			</div>
+			<div className="row row-cols-1 row-cols-md-3 g-4 ms-2 me-2">
+				<div className="col">
+					<div className="card h-100">
+						<div className="card-body">
+							<h5 className="card-title text-center">Frontend Skills</h5>
+							<ul className="list-group list-group-flush">
+								{frontendSkills.map((skill, index) => (
+									<li className="list-group-item" key={index}>
+										{skill.name}
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
 				</div>
-
-				<div className="skills-category">
-					<h2>Backend</h2>
-					<ul>
-						{backendSkills.map((skill, index) => (
-							<li key={index}>{skill.name}</li>
-						))}
-					</ul>
+				<div className="col">
+					<div className="card h-100">
+						<div className="card-body">
+							<h5 className="card-title text-center">Backend Skills</h5>
+							<ul className="list-group list-group-flush">
+								{backendSkills.map((skill, index) => (
+									<li className="list-group-item" key={index}>
+										{skill.name}
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
 				</div>
-
-				<div className="skills-category">
-					<h2>Other</h2>
-					<ul>
-						{otherSkills.map((skill, index) => (
-							<li key={index}>{skill.name}</li>
-						))}
-					</ul>
+				<div className="col">
+					<div className="card h-100">
+						<div className="card-body">
+							<h5 className="card-title text-center">Other Skills</h5>
+							<ul className="list-group list-group-flush">
+								{otherSkills.map((skill, index) => (
+									<li className="list-group-item" key={index}>
+										{skill.name}
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

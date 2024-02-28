@@ -1,79 +1,108 @@
 import React from "react";
-import "./navbar.css";
-import profile_logo from "../../assets/profile-pic.jpg";
 import { Link } from "react-scroll";
 
 function Navbar() {
 	return (
-		<nav className="navbar">
-			{/* <img src={profile_logo} alt="Profile Picture" className="logo" /> */}
-			<div className="menu-bar">
-				<Link
-					activeClass="active"
-					to="home-page"
-					spy={true}
-					smooth={true}
-					offset={-100}
-					duration={500}
-					className="menu-bar-list-item"
+		<nav className="navbar navbar-expand-lg sticky-top">
+			<div className="container-fluid" style={{ width: "100%" }}>
+				<button
+					className="navbar-toggler  "
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					style={{ backgroundColor: "#706F6F" }}
 				>
-					Home
-				</Link>
-				<Link
-					activeClass="active"
-					to="about"
-					spy={true}
-					smooth={true}
-					offset={-120}
-					duration={500}
-					className="menu-bar-list-item"
+					<span className="navbar-toggler-icon"></span>
+				</button>
+				<div
+					className="collapse navbar-collapse justify-content-end"
+					id="navbarNav"
 				>
-					About
-				</Link>
-				<Link
-					activeClass="active"
-					to="project"
-					spy={true}
-					smooth={true}
-					offset={-160}
-					duration={500}
-					className="menu-bar-list-item"
-				>
-					Projects
-				</Link>
-				<Link
-					activeClass="active"
-					to="skills"
-					spy={true}
-					smooth={true}
-					offset={-100}
-					duration={500}
-					className="menu-bar-list-item"
-				>
-					Skills
-				</Link>
-				<Link
-					activeClass="active"
-					to="resume"
-					spy={true}
-					smooth={true}
-					offset={-100}
-					duration={500}
-					className="menu-bar-list-item"
-				>
-					Resume
-				</Link>
-				<Link
-					activeClass="active"
-					to="contact"
-					spy={true}
-					smooth={true}
-					offset={-110}
-					duration={500}
-					className="menu-bar-list-item"
-				>
-					Contact
-				</Link>
+					<ul className="navbar-nav" style={{ backgroundColor: "black" }}>
+						<li className="nav-item">
+							<Link
+								className="nav-link active bg-dark text-white"
+								activeclassName="active"
+								aria-current="page"
+								to="home-page"
+								smooth={true}
+								duration={500}
+								style={{ cursor: "pointer" }}
+								spy={true}
+							>
+								Home
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								className="nav-link bg-dark text-white"
+								activeclassName="active"
+								to="about"
+								smooth={true}
+								duration={500}
+								style={{ cursor: "pointer" }}
+								spy={true}
+							>
+								About
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								className="nav-link bg-dark text-white"
+								activeclassName="active"
+								to="project"
+								smooth={true}
+								duration={500}
+								style={{ cursor: "pointer" }}
+								spy={true}
+							>
+								Projects
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								className="nav-link bg-dark text-white"
+								activeclassName="active"
+								to="skills"
+								smooth={true}
+								duration={500}
+								style={{ cursor: "pointer" }}
+								spy={true}
+							>
+								Skills
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								className="nav-link bg-dark text-white"
+								activeclassName="active"
+								to="resume"
+								smooth={true}
+								duration={500}
+								style={{ cursor: "pointer" }}
+								spy={true}
+							>
+								Resume
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								className="nav-link bg-dark text-white"
+								activeclassName="active"
+								to="contact"
+								smooth={true}
+								duration={500}
+								style={{ cursor: "pointer" }}
+								spy={true}
+							>
+								Contact
+							</Link>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	);
