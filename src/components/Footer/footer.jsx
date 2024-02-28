@@ -1,10 +1,11 @@
 import React from "react";
-import "./footer.css";
 
 const Footer = () => {
 	return (
-		<footer className="footer">
-			Copyright &#169; 2023 Pray Suthar. All rights reserved.
+		<footer class="footer py-3 my-4">
+			<p class=" bg-dark text-white text-center px-2 py-2 ">
+				Copyright &#169; 2023 Pray Suthar. All rights reserved.
+			</p>
 		</footer>
 	);
 };
